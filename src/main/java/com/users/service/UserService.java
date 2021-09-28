@@ -16,5 +16,6 @@ public interface UserService {
 	public User updateUser(User user);
 	public String deleteUserById(Integer user_id);
 	public List<User> getUsersByGroupId(Integer group_id); 
+//	public List<User> getUsersByGroupName(String groupName);
 //	public Integer setGroupIdToNull(Integer group_id);
 }

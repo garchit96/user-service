@@ -76,6 +76,15 @@ public class UserServiceImpl implements UserService {
 		return userRepository.findAllUsersByGroupId(group_id);
 	}
 
+
+//	@Override
+//	public List<User> getUsersByGroupName(String groupName) {
+//		// TODO Auto-generated method stub
+//		return userRepository.findAllUsersByGroupName(groupName);
+//	}
+	
+	
+
 //	@Override
 //	public Integer setGroupIdToNull(Integer group_id) {
 //		return userRepository.updateGroupIdToNull(group_id);

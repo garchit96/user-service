@@ -17,6 +17,9 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	@Query("select u from User u where group_id=?1")
 	public List<User> findAllUsersByGroupId(Integer group_id);
 	
+//	@Query("select u from User u where groupName=?1")
+//	public List<User> findAllUsersByGroupName(String groupName);
+	
 //	@Modifying
 //	@Query("update User u set u.group_id=null where u.group_id =:n")
 //	public Integer updateGroupIdToNull(@Param("n")Integer group_id);

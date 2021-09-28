@@ -49,9 +49,6 @@ public class User  {
     @JoinColumn(name = "group_id", referencedColumnName = "group_id", nullable = true)
     private Usergroup usergroup;
 	
-	
-	
-
 	public User(String name, String email, String address, Usergroup usergroup) {
 		super();
 		this.name = name;
